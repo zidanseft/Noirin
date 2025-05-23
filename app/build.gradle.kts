@@ -1,7 +1,7 @@
 plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.kotlin.android)
-    id("com.google.gms.google-services") // ✅ Plugin Firebase
+    id("com.google.gms.google-services") // Plugin Firebase
 }
 
 android {

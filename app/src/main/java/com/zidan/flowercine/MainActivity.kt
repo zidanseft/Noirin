@@ -1,13 +1,9 @@
 package com.zidan.flowercine
 
-import android.icu.text.Transliterator.Position
 import android.os.Bundle
-import android.transition.Slide
 import android.view.View
 import android.view.WindowManager
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.RecyclerView
 import androidx.viewpager2.widget.CompositePageTransformer
 import androidx.viewpager2.widget.MarginPageTransformer

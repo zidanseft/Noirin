@@ -18,8 +18,7 @@ class FilmListAdapter(private val items: ArrayList<Film>): RecyclerView.Adapter<
 
         fun bind(film: Film){
             binding.nameTxt.text=film.Title
-            val requestOptions = RequestOptions().
-                transform(CenterCrop(), RoundedCorners(30))
+            val requestOptions = RequestOptions().transform(CenterCrop(), RoundedCorners(30))
 
             Glide.with(binding.root.context)
                 .load(film.Poster)
