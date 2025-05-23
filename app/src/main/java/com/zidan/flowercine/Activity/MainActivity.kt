@@ -1,4 +1,4 @@
-package com.zidan.flowercine
+package com.zidan.flowercine.Activity
 
 import android.os.Bundle
 import android.view.View
